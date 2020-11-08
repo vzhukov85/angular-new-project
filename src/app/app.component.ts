@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'new-project';
+
+  // tslint:disable-next-line: typedef
+  setTitle(val?: string) {
+    this.title = val;
+  }
 }
